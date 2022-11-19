@@ -1,0 +1,57 @@
+.about {
+    background-color: #f1f1f1;
+    &__img {
+        background: url('../assets/about/backkAbout.png') center no-repeat;
+        background-size: cover;
+        width: 620px;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__about-blocks {
+        display: flex;
+        padding: 260px 0 ;
+        column-gap: 191px;
+    }
+    &__information {
+        width: 500px;
+        text-align: end;
+    }
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 59px;
+        color: #000000;
+        padding-bottom: 45px;
+    }
+    &__first {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #606060;
+        padding-bottom: 50px;
+    }
+    &__second {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        padding-bottom: 50px;
+        color: #606060;
+    }
+    &__third {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #606060;
+    }
+    &__img-second {
+        margin-top: 148px;
+        margin-right: 74px;
+    }
+}

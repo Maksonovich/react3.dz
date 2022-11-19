@@ -1,0 +1,42 @@
+.Advantage {
+    background: url('../assets/advantage/backGroundAdvatage.png') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    padding: 90px 0;
+    position: relative;
+    &__blocks {
+        width: 900px;
+        height: 200px;
+        align-items: center;
+        position: absolute;
+        left: 19%;
+        top: 30%;
+    }
+    &__title {
+        text-align: left;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 59px;
+        padding-bottom: 45px;
+    }
+    &__blocks-seconds {
+        display: flex;
+        column-gap: 90px;
+    }
+    &__section {
+        display: flex;
+        align-items: flex-start;
+        width: 500px;
+        &:nth-child(1) {
+            margin-bottom: 45px;
+        }
+    }
+    &__p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        padding: 0 26px 0;
+    }
+}

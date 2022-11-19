@@ -1,0 +1,123 @@
+.header {
+    padding: 30px 0;
+    &__burger {
+        position: fixed;
+        height: 100vh;
+        width: 600px;
+        right: 0;
+        background: #191A1E;
+        padding: 20px 30px;
+    }
+    &__x {
+        color: rgba( 255, 255, 255, 0.3);
+        cursor: pointer;
+        font-size: 25px;
+        &:hover {
+            color: #ffffff;
+            transition: 0.3s ease-out;
+        }
+    }
+    &__ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style-type: none;
+        color: rgba( 255, 255, 255, 0.3);
+        margin-top: 42px;
+        &-item {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.9px;
+            padding: 14px 0;
+            cursor: pointer;
+        }
+        &-item:hover {
+            color: #ffffff;
+            transition: 0.3s;
+        }
+        &-item:hover {
+            border-bottom: 1px solid #ffffff;
+            transition: 0.3s ease-in;
+        }
+    }
+
+    &__btn {
+        margin-top: 90px;
+        color: #000000;
+        position: relative;
+        padding: 14px 88px 14px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        border: 1px #000000 solid;
+    }
+}
+
+.burger__items {
+    list-style-type: none;
+    display: flex;
+    column-gap: 10px;
+    margin-top: 100px;
+}
+//header__verstka
+.nav__item {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    column-gap: 745px;
+}
+
+.wrap {
+    height: 100vh;
+    background: url('.././assets/header/BackGround.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.aplication {
+    &__div {
+        text-align: center;
+    }
+    &__title {
+        padding: 10px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 90px;
+        text-transform: uppercase;
+        color: #212733;
+    }
+    &__p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        padding-bottom: 52px;
+    }
+    &__btn {
+        position: relative;
+        padding: 14px 60px 14px 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        border: 1px #000000 solid;
+        background-color: transparent;
+        transition: 0.3s ease-out;
+    }
+    &__btn::after {
+        content: '>';
+        position: absolute;
+        right: 24px;
+        font-size: 25px;
+        top: 15px;
+    }
+    &__btn:hover {
+        background-color: rgba($color: #595959, $alpha: 0.4);
+        transition: 0.3s ease-out;
+    }
+}
